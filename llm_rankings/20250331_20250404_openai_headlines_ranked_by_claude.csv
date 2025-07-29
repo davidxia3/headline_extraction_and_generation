@@ -1,0 +1,32 @@
+rank,label,headline,score_mu,score_sigma,score_95ci
+1,O24,Council approves $5.4 million increase for Liberty Ave Highway Safety Improvement Program,45.11,2.4,4.7
+2,O17,Council approves post-agenda meetings on Oakland BID and Affordable Housing Bond,44.3,2.41,4.72
+3,O20,Council approves $1.06 million increase for Liberty Avenue project with new federal funding,42.85,2.33,4.57
+4,O25,Council approves $1.19 million supplemental agreement with WSP USA for South Negley Avenue Bridge project,40.9,2.28,4.47
+5,O23,Council approves amended grant and funding for Smallman Street Complete Street Project,40.11,2.26,4.43
+6,O16,Council approves agreement with Pittsburgh Downtown Partnership to improve and maintain Market Square at no cost to the City,36.92,2.18,4.27
+7,O28,"Council approves $93,000 increase for vehicle and equipment purchases for Community Health and Safety",36.0,2.09,4.1
+8,O2,Council repeals 2019 resolution allowing Urban Redevelopment Authority to acquire city property in 15th Ward,35.73,2.45,4.81
+9,O29,"Council approves amended reimbursement agreement with Pittsburgh Water for Haverhill Project costs totaling $992,628.77",34.89,2.07,4.05
+10,O6,"Council approves reducing Penn Avenue Lighting grant to $450,000 and authorizes related spending",33.33,2.16,4.24
+11,O26,Council amends and holds zoning map changes for public hearing in Bakery Square area,32.55,2.06,4.04
+12,O14,"Council approves $125,000 transfer for new recycling vehicles through state grant",31.25,2.15,4.22
+13,O18,"City Council approves $316,367 settlement for Finland Street Pedestrian Bridge litigation",30.9,2.11,4.13
+14,O10,Council approves 56 additional open-end professional services agreements with vendors,28.92,2.13,4.17
+15,O30,Council approves agreement with PennDOT to share in-kind services at no cost to city,28.47,2.02,3.95
+16,O3,Council approves land sale contract between Urban Redevelopment Authority and Pittsburgh Land Bank for 5th Ward property,27.24,2.16,4.23
+17,O15,"City Council approves $17,204 payment to renew membership in Chartiers Valley Flood Control Authority for 2025",26.38,2.19,4.29
+18,O7,"City Council approves $115,170 increase for Fort Pitt Park Phase 1 design services with Pashek + MTR",25.82,2.18,4.26
+19,O1,"Council approves $72,500 payment to Pennsylvania Public Utility Commission for delinquent 811 call debts",24.38,2.2,4.32
+20,O5,"Council approves sale of land on North Aiken Avenue to Pittsburgh Land Bank for $48,500",24.25,2.18,4.28
+21,O12,"Council approves $35,025 payment to United Rentals for portable restrooms in city parks",22.97,2.26,4.43
+22,O19,City Council approves no-cost agreement with USI Insurance Services for three-year insurance brokerage contract,21.26,2.3,4.51
+23,O22,"Council approves $32,750 contract with Kicker, Inc. for police recruitment video production",19.89,2.36,4.62
+24,O21,Council holds resolution on sale of 23rd Ward property acquired at tax sale for further review,18.45,2.35,4.6
+25,O9,City receives $500 donation from Pittsburgh Cultural Trust for smoke detectors,17.54,2.29,4.49
+26,O11,"Council approves $13,499 purchase of Mac Scan tool for DPW vehicle repairs",16.33,2.44,4.78
+27,O8,"Council approves $33,292 budget transfer for tuition reimbursement in City Council districts",15.62,2.46,4.81
+28,O0,"Council approves $52,962 subscription payment to Pennsylvania Municipal League",13.21,2.75,5.39
+29,O4,"Council approves sale of land on Island Avenue to Island Avenue Holdings LLC for $3,600 plus costs",11.72,3.02,5.92
+30,O27,Council holds resolution on cooperation agreement for Downing Street steps for six weeks,8.28,3.13,6.13
+31,O13,"Council approves $11,424 contract with Cycom for CityLaw software maintenance and upgrades",6.4,3.28,6.43
