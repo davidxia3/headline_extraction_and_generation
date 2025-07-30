@@ -1,0 +1,31 @@
+rank,label,headline,score_mu,score_sigma,score_95ci
+1,C24,"Council approves $40,000 contract with law firm for immigration legal services.",31.91,2.04,4.0
+2,C13,"Council approves $37,000 grant to help police investigate old sexual assault cases and improve interview rooms.",31.4,1.79,3.51
+3,C20,"Council schedules meeting on police, EMS and fire equipment after ambulance breaks down responding to emergency call.",30.81,1.72,3.37
+4,C25,Council holds ordinance to increase paid sick leave accrual rates and maximum hours for public hearing.,30.34,1.77,3.47
+5,C8,Council introduces ordinance allowing residents to plant and maintain native gardens and natural landscapes on their property.,29.96,1.83,3.59
+6,C14,"Council approves application for $250,000 state grant to fix Emerald View Trail with city matching funds.",29.5,1.69,3.31
+7,C0,Pittsburgh Water pauses Four Mile Run and three other flood mitigation projects due to funding shortfalls.,28.99,1.65,3.23
+8,C12,City Council approves sale of 14 vacant lots in 12th Ward to Larimer Consensus Group to settle court cases.,28.73,1.67,3.28
+9,C26,Council approves agreement for University of Pittsburgh to pay for extra trash pickup in Oakland during student move-in and move-out periods.,28.05,1.67,3.27
+10,C27,Council approves agreement for six new bus shelters in Hazelwood at no cost to the city.,27.62,1.66,3.25
+11,C21,Council holds public hearing on bill to reduce minimum lot sizes for residential development.,27.25,1.66,3.25
+12,C19,"Council approves $8,200 deal to let ALCOSAN build underground tunnels through nine city properties.",27.11,1.65,3.24
+13,C18,Council approves sewage plan revision for South Side townhome development at no cost to the City.,25.1,1.68,3.29
+14,C23,"Council holds resolution to transfer $33,292 for employee tuition reimbursement for six weeks.",24.94,1.64,3.21
+15,C29,Council approves transferring city property at 219 Reifert Street to Pittsburgh Land Bank for $1.,24.57,1.68,3.29
+16,C3,"Council transfers $10,000 from salaries to City Clerk's office for professional services.",24.45,1.66,3.26
+17,C5,"Council refers resolution to authorize $750,000 annual contracts with five vendors for special events services.",23.93,1.59,3.13
+18,C6,Council authorizes temporary construction easements on city property for Smithfield Street repair project.,23.93,1.63,3.19
+19,C16,Council expands residential permit parking program to more South Side Flats streets.,23.43,1.77,3.47
+20,C9,Council designates Donny's Place on Herron Avenue as historic structure despite owner opposition.,22.79,1.68,3.3
+21,C7,Council refers resolution allowing Riverlife to use city dock for public river barge programming to committee.,22.11,1.68,3.29
+22,C11,Council cancels sale of 136 Bodkin Street property and orders refund of hand money.,21.99,1.62,3.17
+23,C28,Council approves agreement allowing Team Pittsburgh to live-stream hockey games at Marmaduke Park at no cost to the city.,21.92,1.67,3.27
+24,C1,Council introduces resolution allowing Team Pittsburgh to live-stream hockey games at Marmaduke Park at no cost to the city.,21.84,1.69,3.31
+25,C22,"Council holds resolution to sell city-owned property on Itin Street for $3,755.",21.47,1.71,3.36
+26,C15,Council passes ordinance clarifying rules for posting residential parking permit signs.,21.21,1.84,3.62
+27,C2,Council considers sewage plan revision for Hermitage Street development at no cost to city.,20.99,1.75,3.44
+28,C17,Council approves sewage plan revision for Walnut McKee Apartments development at 296 McKee Place.,20.8,1.73,3.4
+29,C10,Council refers resolution to loan city-owned Stephen Foster statue to Museum of Contemporary Art at no cost.,19.97,1.7,3.32
+30,C4,"Council approves payment of $6,158 to New Pittsburgh Courier for legal advertisements related to city property title actions.",19.5,1.74,3.41

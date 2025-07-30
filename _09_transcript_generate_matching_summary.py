@@ -1,10 +1,7 @@
 import os
-import json
-import csv
 from pathlib import Path
 
 import pandas as pd
-import matplotlib.pyplot as plt
 from dotenv import load_dotenv
 import anthropic
 

@@ -1,21 +1,31 @@
 from dotenv import load_dotenv
 import anthropic
 import pandas as pd
-import matplotlib.pyplot as plt
-import json
-import csv
 from pathlib import Path
 import os
-from dotenv import load_dotenv
 
 load_dotenv()
 client = anthropic.Anthropic(api_key=os.getenv('CLAUDE_KEY'))
 
 
+def main():
+    ########################################################
+    folder = Path("agenda_segments")
+    ########################################################
+    for file_path in folder.rglob("*.csv"):
+        df = pd.read_csv(file_path)
+        if "matching_summary" in df.columns:
+            continue
+
+        print(f"Generating matching summaries for {file_path}")
+        df["matching_summary"] = df["agenda_segment"].apply(ask_summary)
+        df.to_csv(file_path, index=False)
+
+
+
 # ============================ #
 # Claude Prompt Generator      #
 # ============================ #
-
 
 def make_summary_prompt(agenda_segment):
     return f"""
@@ -40,9 +50,7 @@ Summary:
 # ============================ #
 
 def ask_summary(agenda_segment):
-    prompt = make_summary_prompt(
-        agenda_segment
-    )
+    prompt = make_summary_prompt(agenda_segment)
     response = client.messages.create(
         model="claude-3-5-haiku-latest",
         max_tokens=8192,
@@ -54,17 +62,5 @@ def ask_summary(agenda_segment):
     return response.content[0].text.strip()
 
 
-
-folder = Path("agenda_segments")
-
-for file_path in folder.rglob("*.csv"):
-
-    df = pd.read_csv(file_path)
-    if "matching_summary" in df.columns:
-        continue
-
-    print(f"Generating matching summaries for {file_path}")
-
-    df["matching_summary"] = df["agenda_segment"].apply(ask_summary)
-
-    df.to_csv(file_path, index=False)
+if __name__ == "__main__":
+    main()

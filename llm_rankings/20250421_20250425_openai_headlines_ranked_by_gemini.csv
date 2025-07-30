@@ -1,0 +1,31 @@
+rank,label,headline,score_mu,score_sigma,score_95ci
+1,O21,Council holds public hearing and advances bill to reduce minimum lot sizes in residential zoning districts,45.86,2.65,5.19
+2,O20,"Council schedules special meeting to address EMS, fire, and police fleet issues",44.67,2.64,5.18
+3,O25,Council holds Bill 1736 on paid sick leave accrual rates for public hearing,39.84,2.12,4.16
+4,O24,"Council approves $40,000 contract for immigration legal services with Fragomen firm",38.86,2.1,4.11
+5,O0,City Council discusses pause and funding challenges for Four Mile Run flood mitigation projects,38.33,3.03,5.95
+6,O12,City Council approves sale of 12th Ward properties to Larimer Consensus Group to settle court cases,37.86,2.1,4.12
+7,O8,Council introduces ordinance allowing residents to plant and maintain managed natural landscapes,36.08,2.09,4.09
+8,O19,"City Council approves easements for ALCOSAN tunnels on nine city-owned properties for $8,200",35.37,2.03,3.97
+9,O26,Council approves amended agreement with University of Pittsburgh for supplemental waste pickup in Oakland at no cost to the city,33.43,2.0,3.92
+10,O27,City Council approves agreement with Almono LP for six new bus shelters in Hazelwood at no cost to city,33.41,1.96,3.85
+11,O14,Council approves grant application and city funding for Emerald View Trail rehabilitation project,33.0,1.95,3.82
+12,O13,"Council approves $37,000 grant agreement to support police investigations and training",31.18,1.91,3.75
+13,O6,Council authorizes actions to record temporary construction easements for Smithfield Street repairs at no cost to the City,29.59,1.93,3.77
+14,O15,Council approves clearer rules for residential parking permit signage,28.74,1.93,3.78
+15,O16,Council approves expansion of Residential Permit Parking Area KK in South Side Flats,28.33,1.99,3.9
+16,O9,Council designates Donny’s Place at 1226 Herron Avenue as a Historic Structure despite owner opposition,26.78,1.91,3.74
+17,O23,"City Council votes to hold $33,292 budget transfer for tuition reimbursement for six weeks",26.36,1.97,3.86
+18,O7,Council approves agreement allowing Riverlife barge access from Allegheny Landing Dock at no cost to city,26.18,1.93,3.78
+19,O5,"City Council approves 11 on-call service agreements with five vendors for special events up to $750,000 annually",25.94,1.97,3.86
+20,O29,Council approves Pittsburgh Land Bank acquisition of city property at 219 Reifert Street,24.9,2.04,4.0
+21,O10,Council approves loan of Stephen Foster statue to Museum of Contemporary Art at no cost,24.65,2.07,4.05
+22,O11,Council repeals 2022 property sale of 136 Bodkin Street and orders refund of deposit,23.56,2.01,3.95
+23,O18,City Council approves sewage plan revision for 215 South 21st Street development at no cost to the City,23.47,2.11,4.13
+24,O22,City Council holds resolution for sale of 23rd Ward property for one week,21.15,2.21,4.32
+25,O17,City Council approves sewage plan revision for 296 McKee Place at no cost to the City,18.55,2.31,4.54
+26,O4,"Council approves payment of $6,158.30 to New Pittsburgh Courier for legal ads",15.82,2.34,4.59
+27,O28,City Council approves agreement to live-stream dek hockey games at Marmaduke Park at no cost to the City,14.65,2.56,5.02
+28,O2,Council adopts sewage plan revision for 7415 Hermitage Street at no cost to the city,14.19,2.66,5.22
+29,O3,"Councilwoman Kail-Smith proposes $10,000 budget transfer to City Clerk for professional services",11.94,2.68,5.24
+30,O1,Council authorizes agreement for free live-streaming of dek hockey games at Marmaduke Park,9.73,2.9,5.68

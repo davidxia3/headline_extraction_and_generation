@@ -1,0 +1,36 @@
+rank,label,headline,score_mu,score_sigma,score_95ci
+1,O17,Council approves $5.4 million increase for Liberty Ave Highway Safety Improvement Program,44.27,2.85,5.59
+2,O31,Council approves repeal of 2019 resolution allowing Urban Redevelopment Authority to acquire city property in 15th Ward,40.82,2.5,4.9
+3,O7,City Council approves sale of 12th Ward properties to Larimer Consensus Group to settle court cases,39.98,2.55,4.99
+4,O14,Council approves $1.06 million increase in Liberty Avenue project budget with federal funding,37.71,2.33,4.57
+5,O18,Council approves $1.19 million supplemental agreement with WSP USA for South Negley Avenue Bridge Project,37.54,2.36,4.63
+6,O20,"City Council approves increased reimbursement of $992,628.77 to Pittsburgh Water for Haverhill Project costs",35.13,2.12,4.16
+7,O16,Council approves amended grant agreement for Smallman Street Complete Street Project with reduced funding,34.51,2.1,4.12
+8,O2,"Council authorizes agreement to receive $37,000 grant for sexual assault case investigations and police training",32.99,2.33,4.56
+9,O0,City Council reviews Vision Zero annual memo highlighting progress on traffic safety and new enforcement programs,32.93,2.35,4.6
+10,O26,"Council approves reduced $450,000 grant for Penn Avenue Lighting project in East Liberty",32.22,1.96,3.85
+11,O8,"Council authorizes application for $250,000 grant to rehabilitate Emerald View Trail with city match funding",31.81,1.99,3.9
+12,O34,Council approves sale of land on North Aiken Avenue to Pittsburgh Land Bank,29.2,1.94,3.8
+13,O19,"Council approves $93,000 increase for vehicle and equipment purchases for Community Health and Safety office",28.12,1.92,3.77
+14,O12,"City Council approves $316,367 settlement for Finland Street Pedestrian Bridge litigation",27.36,1.95,3.81
+15,O32,Council approves land sale contract between URA and Pittsburgh Land Bank for 5th Ward property,25.15,1.83,3.6
+16,O9,Council approves agreement with University of Pittsburgh for free supplemental waste services in Oakland neighborhood,25.01,1.89,3.7
+17,O25,Council holds decision on EMS student training agreement with Community College of Allegheny County,24.87,1.79,3.51
+18,O11,Mayor Gainey’s Vision Zero Annual Memo is received and filed by City Council,24.67,1.88,3.68
+19,O1,City Council urges Governor to support cleanup efforts by supplementing resources to address Pittsburgh’s litter problem,23.97,2.06,4.04
+20,O27,"City Council approves $115,170 increase for Fort Pitt Park Phase 1 design services with Pashek + MTR",23.35,1.85,3.62
+21,O21,City Council approves agreement with PennDOT for exchange of in-kind services at no cost to city,22.8,1.79,3.5
+22,O30,"City Council approves $72,500 payment to Pennsylvania Public Utility Commission for 811 damage prevention debts",22.48,1.85,3.63
+23,O28,City Council approves easement agreements with Duquesne Light and Pittsburgh Water for utility installations and landscaping at no cost to the City,21.59,1.86,3.65
+24,O33,Council approves sale of city land on Island Avenue to Island Avenue Holdings LLC,21.45,1.88,3.69
+25,O22,Council holds resolution to rescind 2022 property sale for one week,21.05,1.84,3.6
+26,O3,Council approves easement agreements with Duquesne Light and Pittsburgh Water for pole installation and landscaping at no cost to the City,17.43,2.02,3.95
+27,O6,"City approves easements for underground tunnels on nine city properties with $8,200 payment",16.53,2.12,4.16
+28,O13,"Council approves no-cost, three-year insurance brokerage agreement with USI Insurance Services",16.04,2.05,4.02
+29,O15,"City Council approves $32,750 contract with Kicker Inc. for police recruitment videos",15.85,1.98,3.89
+30,O4,Council adopts sewage plan revision for 296 McKee Place at no cost to the city,12.74,2.31,4.53
+31,O23,City Council holds resolution on sale of 23rd Ward property for two weeks,12.74,2.27,4.45
+32,O24,"Council holds resolution to transfer $33,292 for tuition reimbursement for two weeks",12.5,2.22,4.36
+33,O5,Council adopts sewage plan revision for 215 South 21st Street at no cost to city,11.75,2.47,4.84
+34,O29,"Council approves $52,962 subscription payment to Pennsylvania Municipal League",8.2,2.53,4.96
+35,O10,Council receives weekly Grants Office status update from Office of Management and Budget,6.6,2.7,5.29

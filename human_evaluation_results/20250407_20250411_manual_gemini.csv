@@ -1,0 +1,40 @@
+rank,label,headline,score_mu,score_sigma,score_95ci
+1,G12,City Council approves over $1 million in new federal funding for improvements on Liberty Avenue.,32.24,1.51,2.95
+2,M2,Untested Sexual Assault Kits to Be Processed,31.73,1.59,3.11
+3,G2,"Council introduces legislation to accept a $37,000 grant for investigating old sexual assault cases.",31.15,1.5,2.95
+4,G0,Officials report fewer traffic deaths and new safety efforts in the first year of the Vision Zero program.,30.6,1.56,3.07
+5,G15,City Council approves $5.4 million in additional funding for the Liberty Avenue safety project.,30.57,1.6,3.14
+6,G17,"Council approves $93,000 for new vehicles and equipment for the Office of Community Health and Safety.",30.53,1.48,2.9
+7,M1,Council Seeks State Assistance in Eliminating the City’s Litter and Illegal Dumpsites,29.23,1.45,2.85
+8,G25,"Pittsburgh to accept $450,000 state grant for enhanced lighting in the East Liberty business district.",29.01,1.54,3.01
+9,G10,"City accepts $316,367 to settle lawsuit involving the Finland Street Pedestrian Bridge.",28.39,1.46,2.86
+10,G8,"Council introduces a resolution to apply for a $250,000 state grant for the Emerald View Trail rehabilitation project.",28.11,1.44,2.82
+11,M13,Council to Approve Funding for Recruitment Video Aimed at Addressing Police Shortages,27.75,1.34,2.62
+12,G13,"City Council approves $32,750 contract for police recruitment videos.",27.69,1.53,3.01
+13,G1,"City Council will ask the governor for state help with litter after removing a ""state of emergency"" request.",27.39,1.43,2.8
+14,G18,"Council approves an additional $382,513 for the Haverhill stormwater and road project.",26.83,1.47,2.87
+15,G29,"Council recommends paying a $72,500 debt for 811 damage prevention calls.",26.73,1.39,2.72
+16,G26,"Council recommends an additional $115,170 for design work on Fort Pitt Park improvements.",26.21,1.39,2.72
+17,G7,City Council introduces legislation to transfer 14 properties to the Larimer Consensus Group to settle multiple lawsuits.,25.82,1.42,2.78
+18,G23,"Council places a two-week hold on a $33,292 tuition reimbursement for an employee.",25.36,1.47,2.88
+19,G27,Council committee recommends granting Duquesne Light and Pittsburgh Water use of city land for new utility equipment.,25.22,1.39,2.72
+20,G21,"A resolution for a $33,292 tuition reimbursement is held in committee.",24.95,1.31,2.57
+21,G6,"City to be paid $8,200 for allowing ALCOSAN to build sewer tunnels under nine city properties.",24.89,1.45,2.83
+22,G14,"City Council accepts a $250,000 state grant for the Smallman Street project.",24.78,1.45,2.85
+23,G16,"Council approves a contract increase of more than $317,000 for the South Negley Avenue Bridge Project.",24.64,1.44,2.83
+24,G9,University of Pittsburgh would provide supplemental trash pickup in Oakland under a proposed agreement.,24.55,1.38,2.71
+25,G3,Council to consider granting Duquesne Light and Pittsburgh Water access to city land for utility upgrades.,24.33,1.42,2.79
+26,M0,"Mayor's Vision Zero Plan Appears on Track, Still Awaiting Traffic Fatality Data",24.27,1.39,2.72
+27,G19,City Council authorizes an agreement with PennDOT to share road and bridge maintenance.,23.98,1.4,2.74
+28,G4,Council reviews a sewage plan update for a new apartment building on McKee Place.,23.65,1.43,2.8
+29,G32,"Council recommends selling a URA-owned lot on Island Avenue for $3,600.",22.96,1.43,2.81
+30,G11,City Council authorizes a no-cost agreement with USI Insurance Services for insurance brokerage services.,22.13,1.47,2.89
+31,G24,Proposed EMS student training partnership with the community college is held in committee.,21.95,1.46,2.86
+32,M25,City Receives State Funds for New Lighting Along Penn Ave in East Liberty,21.68,1.49,2.92
+33,G33,Urban Redevelopment Authority to sell North Aiken Avenue property to the Pittsburgh Land Bank.,21.42,1.52,2.98
+34,G31,Two Hill District lots recommended for transfer to the Pittsburgh Land Bank.,21.25,1.48,2.89
+35,G28,"Council approves a nearly $53,000 payment for a one-year subscription to the Pennsylvania Municipal League.",21.19,1.49,2.93
+36,G5,Council refers sewage plan for new South Side townhome development to committee.,20.93,1.48,2.9
+37,G22,Council delays decision on sale of 23rd Ward property.,19.63,1.83,3.58
+38,G30,The Urban Redevelopment Authority will no longer acquire a city-owned property in the 15th Ward.,19.18,1.55,3.04
+39,G20,Council delays vote on canceling a property sale for one week.,18.17,1.66,3.26

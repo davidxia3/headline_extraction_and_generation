@@ -4,10 +4,7 @@ import time
 import pandas as pd
 from pathlib import Path
 from dotenv import load_dotenv
-from datetime import datetime
-
 import anthropic
-import openai
 from openai import OpenAI
 import google.generativeai as genai
 

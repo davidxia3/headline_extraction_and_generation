@@ -1,0 +1,35 @@
+rank,label,headline,score_mu,score_sigma,score_95ci
+1,G12,City Council approves over $1 million in new federal funding for improvements on Liberty Avenue.,32.0,1.64,3.22
+2,G2,"Council introduces legislation to accept a $37,000 grant for investigating old sexual assault cases.",31.3,1.57,3.07
+3,G15,City Council approves $5.4 million in additional funding for the Liberty Avenue safety project.,31.1,1.74,3.41
+4,G0,Officials report fewer traffic deaths and new safety efforts in the first year of the Vision Zero program.,30.94,1.65,3.23
+5,G17,"Council approves $93,000 for new vehicles and equipment for the Office of Community Health and Safety.",30.16,1.61,3.15
+6,G25,"Pittsburgh to accept $450,000 state grant for enhanced lighting in the East Liberty business district.",29.93,1.71,3.35
+7,G10,"City accepts $316,367 to settle lawsuit involving the Finland Street Pedestrian Bridge.",29.23,1.58,3.09
+8,G13,"City Council approves $32,750 contract for police recruitment videos.",28.04,1.66,3.26
+9,G8,"Council introduces a resolution to apply for a $250,000 state grant for the Emerald View Trail rehabilitation project.",28.03,1.58,3.09
+10,G1,"City Council will ask the governor for state help with litter after removing a ""state of emergency"" request.",27.51,1.51,2.96
+11,G18,"Council approves an additional $382,513 for the Haverhill stormwater and road project.",27.02,1.61,3.16
+12,G7,City Council introduces legislation to transfer 14 properties to the Larimer Consensus Group to settle multiple lawsuits.,26.08,1.51,2.97
+13,G26,"Council recommends an additional $115,170 for design work on Fort Pitt Park improvements.",26.05,1.48,2.91
+14,G16,"Council approves a contract increase of more than $317,000 for the South Negley Avenue Bridge Project.",26.0,1.57,3.08
+15,G29,"Council recommends paying a $72,500 debt for 811 damage prevention calls.",25.84,1.5,2.94
+16,G21,"A resolution for a $33,292 tuition reimbursement is held in committee.",25.62,1.39,2.73
+17,G27,Council committee recommends granting Duquesne Light and Pittsburgh Water use of city land for new utility equipment.,25.42,1.51,2.95
+18,G23,"Council places a two-week hold on a $33,292 tuition reimbursement for an employee.",25.09,1.56,3.07
+19,G9,University of Pittsburgh would provide supplemental trash pickup in Oakland under a proposed agreement.,25.01,1.48,2.91
+20,G3,Council to consider granting Duquesne Light and Pittsburgh Water access to city land for utility upgrades.,24.91,1.53,3.0
+21,G6,"City to be paid $8,200 for allowing ALCOSAN to build sewer tunnels under nine city properties.",24.88,1.55,3.05
+22,G14,"City Council accepts a $250,000 state grant for the Smallman Street project.",24.4,1.57,3.08
+23,G4,Council reviews a sewage plan update for a new apartment building on McKee Place.,23.86,1.53,3.01
+24,G19,City Council authorizes an agreement with PennDOT to share road and bridge maintenance.,23.5,1.52,2.97
+25,G24,Proposed EMS student training partnership with the community college is held in committee.,22.78,1.55,3.04
+26,G32,"Council recommends selling a URA-owned lot on Island Avenue for $3,600.",21.97,1.56,3.06
+27,G11,City Council authorizes a no-cost agreement with USI Insurance Services for insurance brokerage services.,21.64,1.59,3.11
+28,G33,Urban Redevelopment Authority to sell North Aiken Avenue property to the Pittsburgh Land Bank.,21.45,1.63,3.19
+29,G5,Council refers sewage plan for new South Side townhome development to committee.,20.83,1.6,3.14
+30,G28,"Council approves a nearly $53,000 payment for a one-year subscription to the Pennsylvania Municipal League.",20.78,1.58,3.1
+31,G31,Two Hill District lots recommended for transfer to the Pittsburgh Land Bank.,20.47,1.6,3.14
+32,G22,Council delays decision on sale of 23rd Ward property.,20.36,1.9,3.73
+33,G30,The Urban Redevelopment Authority will no longer acquire a city-owned property in the 15th Ward.,19.7,1.63,3.2
+34,G20,Council delays vote on canceling a property sale for one week.,17.9,1.83,3.58

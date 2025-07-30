@@ -1,0 +1,37 @@
+rank,label,headline,score_mu,score_sigma,score_95ci
+1,C13,"Council approves $37,000 grant to help police investigate old sexual assault cases and improve interview rooms.",31.87,1.69,3.31
+2,C24,"Council approves $40,000 contract with law firm for immigration legal services.",30.16,1.79,3.5
+3,C8,Council introduces ordinance allowing residents to plant and maintain native gardens and natural landscapes on their property.,29.93,1.68,3.3
+4,C20,"Council schedules meeting on police, EMS and fire equipment after ambulance breaks down responding to emergency call.",29.85,1.52,2.98
+5,M24,"$40,000 Contract with Law Firm for “Immigration Matters” Authorized",29.43,1.6,3.13
+6,C25,Council holds ordinance to increase paid sick leave accrual rates and maximum hours for public hearing.,28.81,1.56,3.06
+7,C14,"Council approves application for $250,000 state grant to fix Emerald View Trail with city matching funds.",28.55,1.52,2.98
+8,C12,City Council approves sale of 14 vacant lots in 12th Ward to Larimer Consensus Group to settle court cases.,28.19,1.52,2.97
+9,C26,Council approves agreement for University of Pittsburgh to pay for extra trash pickup in Oakland during student move-in and move-out periods.,28.03,1.5,2.93
+10,C27,Council approves agreement for six new bus shelters in Hazelwood at no cost to the city.,27.72,1.53,3.0
+11,C19,"Council approves $8,200 deal to let ALCOSAN build underground tunnels through nine city properties.",27.15,1.5,2.94
+12,C0,Pittsburgh Water pauses Four Mile Run and three other flood mitigation projects due to funding shortfalls.,26.57,1.46,2.87
+13,M8,Bill to Allow Pollinator Gardens and Natural Landscapes Introduced,26.28,1.49,2.92
+14,M13,Untested Sexual Assault Kits to Be Processed,26.26,1.52,2.98
+15,M9,Challenged Historic Designation for Former Gay Bar to Receive Public Hearing,26.15,1.43,2.8
+16,C18,Council approves sewage plan revision for South Side townhome development at no cost to the City.,26.06,1.5,2.94
+17,C21,Council holds public hearing on bill to reduce minimum lot sizes for residential development.,25.63,1.49,2.91
+18,C23,"Council holds resolution to transfer $33,292 for employee tuition reimbursement for six weeks.",24.83,1.47,2.88
+19,C5,"Council refers resolution to authorize $750,000 annual contracts with five vendors for special events services.",24.71,1.43,2.8
+20,M21,'Tiny Lots' Approved After Spirited Debate,24.53,1.51,2.96
+21,C29,Council approves transferring city property at 219 Reifert Street to Pittsburgh Land Bank for $1.,24.37,1.54,3.01
+22,C3,"Council transfers $10,000 from salaries to City Clerk's office for professional services.",24.32,1.47,2.89
+23,C6,Council authorizes temporary construction easements on city property for Smithfield Street repair project.,24.32,1.48,2.91
+24,C9,Council designates Donny's Place on Herron Avenue as historic structure despite owner opposition.,22.72,1.55,3.03
+25,C11,Council cancels sale of 136 Bodkin Street property and orders refund of hand money.,22.26,1.48,2.91
+26,C15,Council passes ordinance clarifying rules for posting residential parking permit signs.,21.94,1.6,3.14
+27,C7,Council refers resolution allowing Riverlife to use city dock for public river barge programming to committee.,21.87,1.58,3.09
+28,C16,Council expands residential permit parking program to more South Side Flats streets.,21.86,1.66,3.25
+29,C1,Council introduces resolution allowing Team Pittsburgh to live-stream hockey games at Marmaduke Park at no cost to the city.,21.67,1.55,3.03
+30,C2,Council considers sewage plan revision for Hermitage Street development at no cost to city.,21.36,1.52,2.98
+31,C10,Council refers resolution to loan city-owned Stephen Foster statue to Museum of Contemporary Art at no cost.,21.35,1.5,2.93
+32,C22,"Council holds resolution to sell city-owned property on Itin Street for $3,755.",21.17,1.56,3.05
+33,C17,Council approves sewage plan revision for Walnut McKee Apartments development at 296 McKee Place.,21.02,1.59,3.11
+34,C28,Council approves agreement allowing Team Pittsburgh to live-stream hockey games at Marmaduke Park at no cost to the city.,20.91,1.55,3.03
+35,M7,Riverlife Barge Venue to Dock at Allegheny Landing Park,20.71,1.69,3.31
+36,C4,"Council approves payment of $6,158 to New Pittsburgh Courier for legal advertisements related to city property title actions.",18.7,1.59,3.13

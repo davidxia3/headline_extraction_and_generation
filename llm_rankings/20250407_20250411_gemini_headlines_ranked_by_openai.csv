@@ -1,0 +1,36 @@
+rank,label,headline,score_mu,score_sigma,score_95ci
+1,G0,Officials report fewer traffic deaths and new safety efforts in the first year of the Vision Zero program.,43.11,3.22,6.32
+2,G21,City Council authorizes an agreement with PennDOT to share road and bridge maintenance.,41.0,2.75,5.39
+3,G17,City Council approves $5.4 million in additional funding for the Liberty Avenue safety project.,39.09,2.65,5.19
+4,G3,Council to consider granting Duquesne Light and Pittsburgh Water access to city land for utility upgrades.,35.72,2.49,4.88
+5,G28,Council committee recommends granting Duquesne Light and Pittsburgh Water use of city land for new utility equipment.,34.92,2.21,4.34
+6,G7,City Council introduces legislation to transfer 14 properties to the Larimer Consensus Group to settle multiple lawsuits.,34.84,2.33,4.56
+7,G14,City Council approves over $1 million in new federal funding for improvements on Liberty Avenue.,33.39,2.16,4.22
+8,G20,"Council approves an additional $382,513 for the Haverhill stormwater and road project.",32.51,2.16,4.23
+9,G32,Two Hill District lots recommended for transfer to the Pittsburgh Land Bank.,30.42,2.05,4.01
+10,G2,"Council introduces legislation to accept a $37,000 grant for investigating old sexual assault cases.",29.47,2.1,4.11
+11,G19,"Council approves $93,000 for new vehicles and equipment for the Office of Community Health and Safety.",28.27,2.0,3.92
+12,G26,"Pittsburgh to accept $450,000 state grant for enhanced lighting in the East Liberty business district.",27.32,1.98,3.88
+13,G18,"Council approves a contract increase of more than $317,000 for the South Negley Avenue Bridge Project.",26.92,1.99,3.9
+14,G16,"City Council accepts a $250,000 state grant for the Smallman Street project.",26.41,1.98,3.88
+15,G34,Urban Redevelopment Authority to sell North Aiken Avenue property to the Pittsburgh Land Bank.,26.4,1.98,3.87
+16,G31,The Urban Redevelopment Authority will no longer acquire a city-owned property in the 15th Ward.,23.91,1.93,3.79
+17,G1,"City Council will ask the governor for state help with litter after removing a ""state of emergency"" request.",23.24,2.08,4.09
+18,G5,Council refers sewage plan for new South Side townhome development to committee.,21.96,1.98,3.88
+19,G25,Proposed EMS student training partnership with the community college is held in committee.,21.91,1.89,3.71
+20,G8,"Council introduces a resolution to apply for a $250,000 state grant for the Emerald View Trail rehabilitation project.",20.65,1.94,3.8
+21,G11,City Council receives the Mayor's annual Vision Zero memo.,20.3,1.96,3.85
+22,G27,"Council recommends an additional $115,170 for design work on Fort Pitt Park improvements.",20.07,1.95,3.82
+23,G9,University of Pittsburgh would provide supplemental trash pickup in Oakland under a proposed agreement.,19.38,1.99,3.91
+24,G4,Council reviews a sewage plan update for a new apartment building on McKee Place.,16.69,2.01,3.93
+25,G23,Council delays decision on sale of 23rd Ward property.,16.12,2.02,3.95
+26,G12,"City accepts $316,367 to settle lawsuit involving the Finland Street Pedestrian Bridge.",15.31,2.08,4.07
+27,G6,"City to be paid $8,200 for allowing ALCOSAN to build sewer tunnels under nine city properties.",14.41,2.07,4.07
+28,G15,"City Council approves $32,750 contract for police recruitment videos.",13.59,2.13,4.18
+29,G30,"Council recommends paying a $72,500 debt for 811 damage prevention calls.",13.2,2.08,4.08
+30,G29,"Council approves a nearly $53,000 payment for a one-year subscription to the Pennsylvania Municipal League.",10.98,2.15,4.21
+31,G33,"Council recommends selling a URA-owned lot on Island Avenue for $3,600.",9.73,2.16,4.24
+32,G22,Council delays vote on canceling a property sale for one week.,8.52,2.19,4.29
+33,G13,City Council authorizes a no-cost agreement with USI Insurance Services for insurance brokerage services.,7.54,2.26,4.42
+34,G24,"Council places a two-week hold on a $33,292 tuition reimbursement for an employee.",6.25,2.29,4.48
+35,G10,City Council receives a weekly status update from the Grants Office.,4.4,2.47,4.84

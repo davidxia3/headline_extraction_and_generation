@@ -1,0 +1,33 @@
+rank,label,headline,score_mu,score_sigma,score_95ci
+1,G18,"City approves a $37,000 grant to investigate old sexual assault cases and create a new interview room for victims.",34.74,2.24,4.39
+2,G15,Council approves a public hearing to gather resident ideas on the city's trash problem.,31.09,1.65,3.23
+3,M3,"$40,000 Contract with Law Firm for “Immigration Matters” Authorized",30.27,1.79,3.5
+4,M18,Untested Sexual Assault Kits to Be Processed,28.93,1.61,3.15
+5,G10,City Council approves the Urban Redevelopment Authority’s decision to give up a city-owned property.,28.89,1.68,3.29
+6,M23,Proposed July 2024 Contract for Shelter Services Held Another Five Weeks,28.63,1.68,3.3
+7,G5,Council introduces legislation to increase paid sick leave hours for Pittsburgh employees.,28.62,1.63,3.19
+8,G4,Proposal for six privately-funded bus shelters in Hazelwood sent to committee for review.,27.93,1.59,3.12
+9,G6,"Council accepts a $450,000 state grant for the Penn Avenue lighting project.",27.82,1.58,3.09
+10,G23,City Council places a five-week hold on a $1.5 million contract with Auberle for shelter services.,27.55,1.53,3.0
+11,M6,City Receives State Funds for New Lighting Along Penn Ave in East Liberty,27.2,1.49,2.91
+12,G3,"Resolution introduced to authorize a $40,000 contract for the City’s immigration legal services.",26.84,1.7,3.33
+13,G19,A committee recommends a grant application for the Emerald View Trail following a discussion on improving public input for city projects.,26.58,1.56,3.07
+14,G7,"Council approves an additional $115,170 for design work on Fort Pitt Park improvements.",26.47,1.54,3.02
+15,G9,"City to pay $72,500 for overdue 811 utility call debts.",26.2,1.62,3.17
+16,M16,Council Reopens Discussion of the Process to Purchase City Property After a Rescinded Sale,26.01,1.74,3.41
+17,G11,Council approves the sale of two Hill District lots from the Urban Redevelopment Authority to the Land Bank.,25.93,1.58,3.1
+18,G21,A city committee recommends allowing residential parking permit signs in some non-residential areas.,25.59,1.6,3.13
+19,G17,City to transfer 14 properties to the Larimer Consensus Group in a lawsuit settlement.,25.56,1.58,3.09
+20,G8,"City to pay nearly $53,000 for annual Pennsylvania Municipal League subscription.",25.33,1.49,2.92
+21,G14,City grants Duquesne Light and Pittsburgh Water a right-of-way for a utility project on public land.,24.85,1.63,3.19
+22,G25,Council recommends a sewage plan update for a new townhome development on the South Side.,24.85,1.54,3.02
+23,G20,Proposal for University of Pittsburgh to help with Oakland trash pickup delayed for one week.,24.74,1.56,3.06
+24,G16,Council committee recommends canceling a property sale and refunding the buyer's hand money.,24.42,1.5,2.95
+25,G0,Council introduces legislation to clarify rules for posting residential parking permit signs.,24.33,1.52,2.99
+26,G1,Legislation introduced to expand residential permit parking in the South Side Flats.,23.43,1.62,3.18
+27,G24,Council committee recommends approval of a sewer plan for a new apartment building on McKee Place.,22.42,1.59,3.11
+28,G13,City Council approves the sale of a URA-owned property on North Aiken Avenue to the Pittsburgh Land Bank.,22.27,1.78,3.5
+29,G26,"City to grant ALCOSAN easements for underground tunnels in exchange for $8,200.",21.75,1.72,3.37
+30,G22,Council approves expanding the residential permit parking area in the South Side Flats.,21.53,1.78,3.49
+31,G12,"City Council approves the sale of a URA-owned property on Island Avenue for $3,600.",20.82,1.64,3.22
+32,G2,Pittsburgh Land Bank to acquire city-owned property on Reifert Street.,19.16,1.78,3.49

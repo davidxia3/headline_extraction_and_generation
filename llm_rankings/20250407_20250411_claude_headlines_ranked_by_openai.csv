@@ -1,0 +1,36 @@
+rank,label,headline,score_mu,score_sigma,score_95ci
+1,C0,City reports decrease in traffic deaths to 17 in first year of Vision Zero safety program.,43.11,3.22,6.32
+2,C21,Council approves agreement with state transportation department to share road and bridge maintenance services at no cost to the city.,40.47,3.02,5.91
+3,C17,Council approves $5.4 million increase for Liberty Avenue highway safety project costs.,38.24,2.93,5.74
+4,C1,Council calls on Governor to provide state resources to help clean up Pittsburgh's trash and litter problem.,34.71,2.43,4.76
+5,C14,Council approves $1.1 million increase for Liberty Avenue project using additional federal highway funding.,34.62,2.52,4.93
+6,C7,City Council refers resolution to transfer 14 properties in 12th Ward to Larimer Consensus Group to settle court cases.,32.22,2.33,4.57
+7,C16,"Council approves amended resolution to accept reduced $250,000 state grant for Smallman Street Complete Street Project.",30.65,2.24,4.4
+8,C31,Council approves repealing 2019 resolution that gave redevelopment authority rights to 15th Ward property.,28.78,2.0,3.92
+9,C2,"Council refers resolution to accept $37,000 grant for investigating old sexual assault cases to committee.",28.67,2.06,4.04
+10,C25,Council delays decision on agreement allowing community college students to train with city emergency medical services.,27.07,2.02,3.97
+11,C19,"Council approves $93,000 increase for Office of Community Health and Safety vehicles and equipment purchase.",26.84,2.12,4.15
+12,C18,"Council approves additional $317,588 for South Negley Avenue Bridge Project, bringing total contract to $1.2 million.",26.22,1.98,3.88
+13,C6,"City Council considers allowing ALCOSAN to build underground tunnels through nine city properties for $8,200.",25.93,2.0,3.92
+14,C20,"Council approves $382,513 increase for Haverhill Project bringing total city reimbursement to Pittsburgh Water to $992,629.",25.16,1.99,3.9
+15,C11,Council receives Mayor Gainey's annual Vision Zero traffic safety report.,23.53,1.97,3.86
+16,C32,"Council approves sale of two Hill District lots from redevelopment authority to Pittsburgh Land Bank for $16,290.",22.98,1.88,3.69
+17,C5,Council refers resolution to approve sewage plan for South Side townhome development to committee.,21.85,1.89,3.71
+18,C8,"Council authorizes city officials to apply for $250,000 state grant to help fund Emerald View Trail repairs.",20.07,1.85,3.62
+19,C3,Council refers resolution allowing Duquesne Light and Pittsburgh Water to install utility poles and wires on city property at no cost to committee.,19.57,1.93,3.79
+20,C9,Council refers resolution for University of Pittsburgh to provide free supplemental waste services in Oakland neighborhood.,19.4,1.88,3.68
+21,C28,Council approves easement agreements allowing Duquesne Light and Pittsburgh Water to install utility poles and maintain landscaping on city property at no cost.,19.21,1.89,3.7
+22,C26,Council approves reduced Penn Avenue lighting grant for East Liberty business district enhancement project.,18.38,1.85,3.63
+23,C4,Council approves sewage plan revision for new apartment development at 296 McKee Place at no cost to the city.,16.41,1.88,3.69
+24,C34,"Council approves sale of North Aiken Avenue property from redevelopment authority to Pittsburgh Land Bank for $48,500.",16.06,1.94,3.8
+25,C12,"City Council approves $316,367 settlement for Finland Street Pedestrian Bridge lawsuit.",15.58,1.86,3.65
+26,C30,"Council approves $72,500 payment to state utility commission for overdue 811 damage prevention call fees.",14.21,1.89,3.71
+27,C27,"Council approves additional $115,170 for Fort Pitt Park design services, bringing total cost to $415,170.",14.16,1.93,3.78
+28,C13,Council approves three-year agreement with USI Insurance Services for city insurance brokerage services.,13.04,1.89,3.7
+29,C24,"Council holds resolution to transfer $33,292 from salaries to employee benefits for tuition reimbursement.",10.41,1.97,3.86
+30,C22,"Council holds resolution to cancel $40,000 property sale on Bodkin Street for one week.",10.11,1.99,3.9
+31,C15,"Council approves $32,750 contract for video production company to create police recruitment videos.",9.43,2.03,3.99
+32,C33,"Council approves sale of city land on Island Avenue to Island Avenue Holdings for $3,600.",9.33,2.02,3.96
+33,C29,"Council approves $52,962 payment for one-year Pennsylvania Municipal League subscription.",7.19,2.07,4.06
+34,C23,"Council holds resolution to sell city-owned property on Itin Street for $3,755.",6.07,2.11,4.13
+35,C10,"City Council receives weekly grants office status update for April 4, 2025.",4.48,2.27,4.45

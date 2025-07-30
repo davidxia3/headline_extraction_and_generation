@@ -2,6 +2,16 @@ import pdfplumber
 from pathlib import Path
 
 
+def main():
+    ##################################################### Define input/output folders
+    input_agenda_folder = Path("_input_agendas")
+    processed_agenda_folder = Path("processed_agendas")
+    #####################################################
+
+    # Process all agendas
+    process_agendas(input_agenda_folder, processed_agenda_folder)
+
+
 def process_pdf_to_text(pdf_path: Path, output_path: Path):
     """
     Extracts text from all pages of a PDF file and writes it to a text file.
@@ -17,10 +27,7 @@ def process_pdf_to_text(pdf_path: Path, output_path: Path):
             if page_text:
                 all_text += page_text + "\n\n"
 
-    # Ensure the output directory exists
     output_path.parent.mkdir(parents=True, exist_ok=True)
-
-    # Write the extracted text to file
     output_path.write_text(all_text, encoding="utf-8")
 
 
@@ -35,7 +42,6 @@ def process_agendas(input_folder: Path, output_folder: Path):
     """
     for pdf_path in input_folder.rglob("*.pdf"):
         file_stem = pdf_path.stem  
-        
         output_txt_path = output_folder / f"{file_stem}.txt"
 
         print(f"Processing: {pdf_path}")
@@ -43,10 +49,4 @@ def process_agendas(input_folder: Path, output_folder: Path):
 
 
 if __name__ == "__main__":
-    ##################################################### Define input/output folders
-    input_agenda_folder = Path("_input_agendas")
-    processed_agenda_folder = Path("processed_agendas")
-    #####################################################
-
-    # Process all agendas
-    process_agendas(input_agenda_folder, processed_agenda_folder)
+    main()

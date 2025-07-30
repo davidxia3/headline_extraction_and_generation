@@ -1,0 +1,36 @@
+rank,label,headline,score_mu,score_sigma,score_95ci
+1,O31,Council approves repeal of 2019 resolution allowing Urban Redevelopment Authority to acquire city property in 15th Ward,42.33,2.72,5.32
+2,O17,Council approves $5.4 million increase for Liberty Ave Highway Safety Improvement Program,41.76,2.99,5.85
+3,O2,"Council authorizes agreement to receive $37,000 grant for sexual assault case investigations and police training",40.08,2.95,5.79
+4,O7,City Council approves sale of 12th Ward properties to Larimer Consensus Group to settle court cases,37.31,2.5,4.91
+5,O0,City Council reviews Vision Zero annual memo highlighting progress on traffic safety and new enforcement programs,36.08,2.52,4.94
+6,O14,Council approves $1.06 million increase in Liberty Avenue project budget with federal funding,35.9,2.15,4.22
+7,O16,Council approves amended grant agreement for Smallman Street Complete Street Project with reduced funding,34.78,2.07,4.06
+8,O18,Council approves $1.19 million supplemental agreement with WSP USA for South Negley Avenue Bridge Project,32.33,1.97,3.87
+9,O20,"City Council approves increased reimbursement of $992,628.77 to Pittsburgh Water for Haverhill Project costs",30.59,1.85,3.64
+10,O9,Council approves agreement with University of Pittsburgh for free supplemental waste services in Oakland neighborhood,29.84,1.91,3.75
+11,O28,City Council approves easement agreements with Duquesne Light and Pittsburgh Water for utility installations and landscaping at no cost to the City,28.93,1.85,3.63
+12,O34,Council approves sale of land on North Aiken Avenue to Pittsburgh Land Bank,28.85,1.83,3.58
+13,O26,"Council approves reduced $450,000 grant for Penn Avenue Lighting project in East Liberty",28.01,1.81,3.56
+14,O25,Council holds decision on EMS student training agreement with Community College of Allegheny County,27.22,1.8,3.52
+15,O33,Council approves sale of city land on Island Avenue to Island Avenue Holdings LLC,27.15,1.82,3.58
+16,O1,City Council urges Governor to support cleanup efforts by supplementing resources to address Pittsburgh’s litter problem,25.98,2.08,4.08
+17,O32,Council approves land sale contract between URA and Pittsburgh Land Bank for 5th Ward property,25.61,1.77,3.47
+18,O21,City Council approves agreement with PennDOT for exchange of in-kind services at no cost to city,25.56,1.73,3.39
+19,O19,"Council approves $93,000 increase for vehicle and equipment purchases for Community Health and Safety office",23.29,1.75,3.43
+20,O22,Council holds resolution to rescind 2022 property sale for one week,23.08,1.78,3.5
+21,O12,"City Council approves $316,367 settlement for Finland Street Pedestrian Bridge litigation",22.96,1.77,3.47
+22,O8,"Council authorizes application for $250,000 grant to rehabilitate Emerald View Trail with city match funding",21.82,1.85,3.62
+23,O30,"City Council approves $72,500 payment to Pennsylvania Public Utility Commission for 811 damage prevention debts",20.74,1.8,3.54
+24,O27,"City Council approves $115,170 increase for Fort Pitt Park Phase 1 design services with Pashek + MTR",19.92,1.85,3.62
+25,O15,"City Council approves $32,750 contract with Kicker Inc. for police recruitment videos",19.46,1.8,3.54
+26,O6,"City approves easements for underground tunnels on nine city properties with $8,200 payment",19.0,1.91,3.75
+27,O3,Council approves easement agreements with Duquesne Light and Pittsburgh Water for pole installation and landscaping at no cost to the City,17.48,2.0,3.91
+28,O11,Mayor Gainey’s Vision Zero Annual Memo is received and filed by City Council,17.05,1.93,3.78
+29,O23,City Council holds resolution on sale of 23rd Ward property for two weeks,16.19,2.01,3.93
+30,O13,"Council approves no-cost, three-year insurance brokerage agreement with USI Insurance Services",15.77,2.04,4.01
+31,O29,"Council approves $52,962 subscription payment to Pennsylvania Municipal League",12.42,2.25,4.41
+32,O4,Council adopts sewage plan revision for 296 McKee Place at no cost to the city,10.91,2.28,4.46
+33,O24,"Council holds resolution to transfer $33,292 for tuition reimbursement for two weeks",10.01,2.41,4.72
+34,O10,Council receives weekly Grants Office status update from Office of Management and Budget,8.78,2.46,4.82
+35,O5,Council adopts sewage plan revision for 215 South 21st Street at no cost to city,6.7,2.75,5.38
