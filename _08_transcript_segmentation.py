@@ -49,7 +49,7 @@ def convert_sentences_to_segments(input_csv_path, output_csv_path):
 
 
 if __name__ == "__main__":
-    input_folder = Path("manual_labeled_sentences")
+    input_folder = Path("sentences_manual")
     output_folder = Path("transcript_segments")
     output_folder.mkdir(parents=True, exist_ok=True)
 

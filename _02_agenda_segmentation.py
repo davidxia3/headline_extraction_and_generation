@@ -13,7 +13,7 @@ def main():
     client = anthropic.Anthropic(api_key=os.getenv('CLAUDE_KEY'))
 
     # Folder containing processed agenda .txt files
-    input_agenda_folder = Path("processed_agendas")
+    input_agenda_folder = Path("agendas_processed")
     output_agenda_segment_folder = Path("agenda_segments")
     ###################################################################
 

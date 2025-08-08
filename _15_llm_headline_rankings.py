@@ -101,7 +101,7 @@ GEN_LLM = "openai"   # options: "openai", "claude", "gemini"
 RANK_LLM = "openai"
 
 # === Load Headline Data ===
-df = pd.read_csv(f"human_evaluation_prep/{WEEK_STR}_filtered_headlines.csv")
+df = pd.read_csv(f"ranking_prep/{WEEK_STR}_filtered_headlines.csv")
 claude_headlines = df["claude_headline"].tolist()
 gemini_headlines = df["gemini_headline"].tolist()
 openai_headlines = df["openai_headline"].tolist()
@@ -171,7 +171,7 @@ for i, (headline, rating) in enumerate(ranked, 1):
     })
 
 # === Save to CSV ===
-output_path = Path(f"llm_rankings/{WEEK_STR}_{GEN_LLM}_headlines_ranked_by_{RANK_LLM}.csv")
+output_path = Path(f"rankings_by_llm/{WEEK_STR}_{GEN_LLM}_headlines_ranked_by_{RANK_LLM}.csv")
 output_path.parent.mkdir(parents=True, exist_ok=True)
 
 with open(output_path, "w", newline="", encoding="utf-8") as f:
