@@ -89,7 +89,7 @@ def process_audio_folder(audio_dir: Path, output_sent_dir: Path, output_tran_dir
 
 # === Config & Execution ===
 if __name__ == "__main__":
-    AUDIO_INPUT_DIR = Path("_input_audios")
+    AUDIO_INPUT_DIR = Path("__input_audios")
     SENTENCES_OUTPUT_DIR = Path("sentences_unlabeled")
     TRANSCRIPTS_OUTPUT_DIR = Path("transcripts")
 

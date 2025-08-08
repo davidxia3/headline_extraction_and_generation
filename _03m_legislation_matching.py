@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("_input_legislations/20250401_REG.csv")
+df = pd.read_csv("__input_legislations/20250401_REG.csv")
 df.loc[0, "matched_agenda_segment"] = 4
 df.loc[1, "matched_agenda_segment"] = 5
 df.loc[2, "matched_agenda_segment"] = 6
@@ -34,7 +34,7 @@ df.loc[28, "matched_agenda_segment"] = 34
 df.to_csv("matched_legislations/20250401_REG.csv", index=False)
 
 
-df = pd.read_csv("_input_legislations/20250402_STA.csv")
+df = pd.read_csv("__input_legislations/20250402_STA.csv")
 df.loc[0, "matched_agenda_segment"] = 1
 df.loc[1, "matched_agenda_segment"] = 4
 df.loc[2, "matched_agenda_segment"] = 5
@@ -58,12 +58,12 @@ df.loc[18, "matched_agenda_segment"] = 22
 df.to_csv("matched_legislations/20250402_STA.csv", index=False)
 
 
-df = pd.read_csv("_input_legislations/20250408_POS.csv")
+df = pd.read_csv("__input_legislations/20250408_POS.csv")
 
 df.to_csv("matched_legislations/20250408_POS.csv", index=False)
 
 
-df = pd.read_csv("_input_legislations/20250408_REG.csv")
+df = pd.read_csv("__input_legislations/20250408_REG.csv")
 df.loc[0, "matched_agenda_segment"] = 4
 df.loc[1, "matched_agenda_segment"] = 5
 df.loc[2, "matched_agenda_segment"] = 6
@@ -104,7 +104,7 @@ df.loc[35, "matched_agenda_segment"] = 41
 df.to_csv("matched_legislations/20250408_REG.csv", index=False)
 
 
-df = pd.read_csv("_input_legislations/20250409_STA.csv")
+df = pd.read_csv("__input_legislations/20250409_STA.csv")
 df.loc[0, "matched_agenda_segment"] = 1
 df.loc[1, "matched_agenda_segment"] = 2
 df.loc[2, "matched_agenda_segment"] = 5
@@ -128,7 +128,7 @@ df.loc[18, "matched_agenda_segment"] = 22
 df.to_csv("matched_legislations/20250409_STA.csv", index=False)
 
 
-df = pd.read_csv("_input_legislations/20250415_REG.csv")
+df = pd.read_csv("__input_legislations/20250415_REG.csv")
 df.loc[0, "matched_agenda_segment"] = 4
 df.loc[1, "matched_agenda_segment"] = 6
 df.loc[2, "matched_agenda_segment"] = 7
@@ -161,7 +161,7 @@ df.loc[27, "matched_agenda_segment"] = 32
 df.to_csv("matched_legislations/20250415_REG.csv", index=False)
 
 
-df = pd.read_csv("_input_legislations/20250416_STA.csv")
+df = pd.read_csv("__input_legislations/20250416_STA.csv")
 df.loc[0, "matched_agenda_segment"] = 3
 df.loc[1, "matched_agenda_segment"] = 4
 df.loc[2, "matched_agenda_segment"] = 5
@@ -183,12 +183,12 @@ df.loc[16, "matched_agenda_segment"] = 20
 df.to_csv("matched_legislations/20250416_STA.csv", index=False)
 
 
-df = pd.read_csv("_input_legislations/20250422_POS.csv")
+df = pd.read_csv("__input_legislations/20250422_POS.csv")
 
 df.to_csv("matched_legislations/20250422_POS.csv", index=False)
 
 
-df = pd.read_csv("_input_legislations/20250422_REG.csv")
+df = pd.read_csv("__input_legislations/20250422_REG.csv")
 df.loc[0, "matched_agenda_segment"] = 4
 df.loc[1, "matched_agenda_segment"] = 5
 df.loc[2, "matched_agenda_segment"] = 6
@@ -239,13 +239,13 @@ df.loc[45, "matched_agenda_segment"] = 51
 df.to_csv("matched_legislations/20250422_REG.csv", index=False)
 
 
-df = pd.read_csv("_input_legislations/20250423_PUB.csv")
+df = pd.read_csv("__input_legislations/20250423_PUB.csv")
 df.loc[0, "matched_agenda_segment"] = 2
 
 df.to_csv("matched_legislations/20250423_PUB.csv", index=False)
 
 
-df = pd.read_csv("_input_legislations/20250423_STA.csv")
+df = pd.read_csv("__input_legislations/20250423_STA.csv")
 df.loc[0, "matched_agenda_segment"] = 3
 df.loc[1, "matched_agenda_segment"] = 4
 df.loc[2, "matched_agenda_segment"] = 5

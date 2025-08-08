@@ -4,7 +4,7 @@ from pathlib import Path
 
 def main():
     ##################################################### Define input/output folders
-    input_agenda_folder = Path("_input_agendas")
+    input_agenda_folder = Path("__input_agendas")
     processed_agenda_folder = Path("agendas_processed")
     #####################################################
 
