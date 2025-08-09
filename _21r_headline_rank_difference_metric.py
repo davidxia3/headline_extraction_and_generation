@@ -96,4 +96,4 @@ for bar in bars:
     )
 
 plt.tight_layout()
-plt.savefig("ranking_metrics/headline_rank_difference.png")
+plt.savefig("_ranking_metrics/headline_rank_difference.png")

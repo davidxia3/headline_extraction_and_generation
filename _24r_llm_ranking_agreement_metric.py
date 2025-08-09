@@ -116,4 +116,4 @@ ax.tick_params(axis='x', labelsize=20)
 ax.tick_params(axis='y', labelsize=20)
 
 plt.tight_layout()
-plt.savefig("ranking_metrics/llm_ranking_agreement.png")
+plt.savefig("_ranking_metrics/llm_ranking_agreement.png")

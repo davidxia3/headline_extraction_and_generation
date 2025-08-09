@@ -132,4 +132,4 @@ for bar in bars:
                 fontsize=30)
 
 plt.tight_layout()
-plt.savefig("ranking_metrics/average_rank.png")
+plt.savefig("_ranking_metrics/average_rank.png")

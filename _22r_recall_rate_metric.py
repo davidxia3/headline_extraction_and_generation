@@ -153,5 +153,5 @@ annotate_bars(bars_top3, "Top 3")
 annotate_bars(bars_top5, "Top 5")
 
 plt.tight_layout()
-os.makedirs("ranking_metrics", exist_ok=True)
-plt.savefig("ranking_metrics/recall_rate.png")
+os.makedirs("_ranking_metrics", exist_ok=True)
+plt.savefig("_ranking_metrics/recall_rate.png")
