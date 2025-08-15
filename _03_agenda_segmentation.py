@@ -8,23 +8,20 @@ import os
 
 
 def main():
-    ###################################################################
-    load_dotenv()
-    client = anthropic.Anthropic(api_key=os.getenv('CLAUDE_KEY'))
-
-    # Folder containing processed agenda .txt files
+    ######## CONFIGURATION ########
+    CLAUDE_KEY = os.getenv("CLAUDE_KEY")
     input_agenda_folder = Path("agendas_processed")
     output_agenda_segment_folder = Path("agenda_segments")
-    ###################################################################
+    ################################
+
+    load_dotenv()
+    client = anthropic.Anthropic(api_key=CLAUDE_KEY)
 
     segment_all_agendas(input_agenda_folder, output_agenda_segment_folder, client)
 
 
-# ============================ #
-# Claude Prompt Generator      #
-# ============================ #
 
-def agenda_segmentation_prompt(agenda_text: str) -> str:
+def agenda_segmentation_prompt(agenda_text: str):
     return f"""
 You are a professional city council meeting assistant.
 
@@ -52,11 +49,16 @@ Agenda:
 """
 
 
-# ============================ #
-# Claude API Wrapper           #
-# ============================ #
 
-def claude_segment(agenda_text: str, client) -> str:
+
+def claude_segment(agenda_text: str, client):
+    """
+    Claude prompt wrapper function.
+
+    Parameters:
+    - agenda_text (str): String containing extracted text from meeting agenda.
+    - client: Claude API client.
+    """
     prompt = agenda_segmentation_prompt(agenda_text)
     response = client.messages.create(
         model="claude-3-5-haiku-latest",
@@ -67,11 +69,17 @@ def claude_segment(agenda_text: str, client) -> str:
     return response.content[0].text.strip()
 
 
-# ============================ #
-# File I/O Helpers             #
-# ============================ #
+
+
 
 def save_json_segments_to_csv(json_string: str, output_path: Path):
+    """
+    Processes LLM response as JSON string and saves to output path.
+
+    Parameters:
+    - json_string (str): String parsable as JSON.
+    - output_path (Path): Path object of destination JSON file.
+    """
     try:
         segments = json.loads(json_string)
         with output_path.open("w", newline='', encoding='utf-8') as f:
@@ -79,16 +87,23 @@ def save_json_segments_to_csv(json_string: str, output_path: Path):
             writer.writerow(["agenda_segment"])
             for segment in segments:
                 writer.writerow([segment])
-        print(f"Saved {len(segments)} segments to {output_path}")
+        print(f"saved segments to {output_path}")
     except json.JSONDecodeError as e:
-        print(f"Failed to parse JSON from Claude:\n{e}")
+        print(f"!!! llm output not JSON parsable")
 
 
-# ============================ #
-# Main Pipeline                #
-# ============================ #
+
+
 
 def segment_all_agendas(input_folder: Path, output_folder: Path, client):
+    """
+    Prompts Claude to segment TXT meeting agendas and saves segments as CSV.
+
+    Parameters:
+    - input_folder (Path): Path object of folder with TXT agenda files.
+    - output_folder (Path): Path object of folder where CSV segment files will be saved.
+    - client: Claude API client. 
+    """
     for file_path in input_folder.rglob("*.txt"):
         print(f"Segmenting {file_path}")
         file_stem = file_path.stem
@@ -99,6 +114,7 @@ def segment_all_agendas(input_folder: Path, output_folder: Path, client):
         save_json_segments_to_csv(segments_json, output_path)
 
 
-# Run the script
+
+
 if __name__ == "__main__":
     main()

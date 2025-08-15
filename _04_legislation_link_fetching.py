@@ -6,59 +6,85 @@ import csv
 import re
 
 
-# ===== CONFIG =====
-input_folder = Path("__input_urls")  # Folder containing .txt files with URLs
-output_folder = Path("legislations")  # Folder to save CSV files
-table_id = "ctl00_ContentPlaceHolder1_gridMain_ctl00"
+def main():
+    ######## CONFIGURATION ########
+    input_folder = Path("__input_urls")
+    output_folder = Path("legislations")
+    table_id = "ctl00_ContentPlaceHolder1_gridMain_ctl00"
+    ###############################
 
-output_folder.mkdir(exist_ok=True, parents=True)
 
-# Iterate through each .txt file
-for txt_file in input_folder.glob("*.txt"):
-    with open(txt_file, "r", encoding="utf-8") as f:
-        page_url = f.read().strip()
+    fetch_links(input_folder, output_folder, table_id)
 
-    if not page_url:
-        print(f"Skipping empty file: {txt_file}")
-        continue
 
-    print(f"\nProcessing: {page_url}")
+def fetch_links(input_folder: Path, output_folder: Path, table_id: str):
+    """
+    Finds and stores the URLs to legislations for each meeting in input folder and stores as CSV in output folder.
 
-    try:
-        response = requests.get(page_url, headers={"User-Agent": "Mozilla/5.0"})
-        response.raise_for_status()
-    except Exception as e:
-        print(f"Failed to fetch page {page_url}: {e}")
-        continue
+    Parameters:
+    - input_folder (Path): Path object of folder containing URLs to Legistar Meeting Details webpage.
+    - output_folder (Path): Path object of folder where CSV of legislation URLs will be saved to.
+    - table_id (str): str object of element ID containing table of items (bills, proclamations, etc) on Meeting Details webpage.
+    """
+    output_folder.mkdir(exist_ok=True, parents=True)
 
-    soup = BeautifulSoup(response.text, "html.parser")
+    # iterate through each TXT file
+    for txt_file in input_folder.glob("*.txt"):
 
-    table = soup.find("table", id=table_id)
-    if not table:
-        print(f"No table with id '{table_id}' found on page.")
-        continue
+        # extract url from TXT file
+        with open(txt_file, "r", encoding="utf-8") as f:
+            page_url = f.read().strip()
 
-    output_csv_path = output_folder / f"{txt_file.stem}.csv"
+        if not page_url:
+            print(f"!!! skipping empty file: {txt_file}")
+            continue
 
-    with open(output_csv_path, "w", newline="", encoding="utf-8") as csvfile:
-        writer = csv.writer(csvfile)
-        writer.writerow(["item", "link"])  # header row
 
-        # Iterate table rows
-        for row in table.find_all("tr"):
-            cells = row.find_all("td")
-            if not cells:
-                continue
+        # load webpage
+        print(f"processing: {page_url}")
 
-            first_col = cells[0]
-            text = re.sub(r"[a-zA-Z\s]", "", first_col.get_text(strip=True))
-            links = first_col.find_all("a", href=True)
+        try:
+            response = requests.get(page_url, headers={"User-Agent": "Mozilla/5.0"})
+            response.raise_for_status()
+        except Exception as e:
+            print(f"!!! webpage fail: {page_url}")
+            continue
 
-            for a in links:
-                href = urljoin(page_url, a["href"])
-                if text and href:
-                    writer.writerow([text, href])
+        soup = BeautifulSoup(response.text, "html.parser")
 
-    print(f"Saved CSV: {output_csv_path}")
 
-print("All done.")
+
+        # extract table from webpage using table_id
+        table = soup.find("table", id=table_id)
+        if not table:
+            print(f"No table with id '{table_id}' found on page.")
+            continue
+
+        output_csv_path = output_folder / f"{txt_file.stem}.csv"
+
+
+        # extract and save URLs of legislation and their corresponding item
+        with open(output_csv_path, "w", newline="", encoding="utf-8") as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerow(["item", "link"])
+
+            # iterate table rows
+            for row in table.find_all("tr"):
+                cells = row.find_all("td")
+                if not cells:
+                    continue
+
+                first_col = cells[0]
+                text = re.sub(r"[a-zA-Z\s]", "", first_col.get_text(strip=True))
+                links = first_col.find_all("a", href=True)
+
+                for a in links:
+                    href = urljoin(page_url, a["href"])
+                    if text and href:
+                        writer.writerow([text, href])
+
+        print(f"saved CSV: {output_csv_path}")
+
+
+if __name__ == "__main__":
+    main()
