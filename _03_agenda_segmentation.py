@@ -8,13 +8,14 @@ import os
 
 
 def main():
+    load_dotenv()
+    
     ######## CONFIGURATION ########
     CLAUDE_KEY = os.getenv("CLAUDE_KEY")
     input_agenda_folder = Path("agendas_processed")
     output_agenda_segment_folder = Path("agenda_segments")
     ################################
 
-    load_dotenv()
     client = anthropic.Anthropic(api_key=CLAUDE_KEY)
 
     segment_all_agendas(input_agenda_folder, output_agenda_segment_folder, client)
